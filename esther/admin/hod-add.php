@@ -33,9 +33,9 @@ if(isset($_POST['add_now'])) {
 					<input type="text" placeholder="Enter Full Name" required="" name="hod_name">
 				</div>
 				<div class="vali-form">
-					<div class="col-md-6 form-group1">
-						<label class="control-label">Email</label>
-						<input type="text" placeholder="Enter Email" required="" name="email">
+					<div class="col-md-6 form-group2">
+						<label class="control-label">Email</label><br>
+						<input type="email" placeholder="Enter Email" required="" name="email">
 					</div>
 					<div class="col-md-6 form-group1">
 						<label class="control-label">Password</label>

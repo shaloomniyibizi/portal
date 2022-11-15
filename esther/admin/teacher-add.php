@@ -41,7 +41,7 @@ if(isset($_POST['add_now'])) {
 				<div class="vali-form">
 					<div class="col-md-6 form-group1">
 						<label class="control-label">Email</label>
-						<input type="text" placeholder="Enter Email" required="" name="email">
+						<input type="email" placeholder="Enter Email" required="" name="email">
 					</div>
 					<div class="col-md-6 form-group1">
 						<label class="control-label">Password</label>

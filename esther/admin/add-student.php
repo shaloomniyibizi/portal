@@ -74,7 +74,7 @@ if(isset($_POST['std_add_now']))
 					</div>
 					<div class="col-md-6 form-group1 form-last">
 						<label class="control-label">DOB</label>
-						<input type="text" placeholder="eg 29 Feb 200" required="" name="dob">
+						<input type="date" placeholder="eg 29 Feb 200" required="" name="dob">
 					</div>
 					<div class="col-md-6 form-group1">
 						<label class="control-label">Address</label>

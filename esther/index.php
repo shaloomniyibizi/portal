@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Portal</title>
-<!-- Meta tag Keywords -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Scholarly web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--// Meta tag Keywords -->
-<!-- css files -->
-<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
-<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
-<link rel="stylesheet" href="css/swipebox.css">
-<link rel="stylesheet" href="css/jquery-ui.css" />
-<!-- //css files -->
-<!-- online-fonts -->
-<link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-<!-- //online-fonts -->
+	<title>Portal</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Scholarly web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--// Meta tag Keywords -->
+	<!-- css files -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+	<link rel="stylesheet" href="css/swipebox.css">
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<!-- //css files -->
+	<!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!-- //online-fonts -->
 </head>
 <body>
 <!-- banner -->
@@ -234,7 +234,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //modal --> 
 <!-- //about -->
 <!--stats-->
-<div class="stats" id="stats">
+<!-- <div class="stats" id="stats">
 	<div class="container">
 		<div class="stats-info">
 			<div class="col-md-3 col-xs-3 stats-grid slideanim">
@@ -264,10 +264,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!--//stats-->
 <!-- services -->
-<div class="services" id="services" >
+<!-- <div class="services" id="services" >
 	<div class="container">  
 		<h3 class="w3l-title">Our Services</h3>
 		<div class="w3layouts_header">
@@ -295,10 +295,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="clearfix"> </div>
 		</div>  
 	</div>
-</div>
+</div> -->
 <!-- //services -->
 <!-- Gallery -->
-<section class="portfolio-w3ls" id="gallery">
+<!-- <section class="portfolio-w3ls" id="gallery">
 		<h3 class="w3l-title">Our Gallery</h3>
 		<div class="w3layouts_header">
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
@@ -400,10 +400,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</a>
 				</div>
 				<div class="clearfix"> </div>
-</section>
+</section> -->
 <!-- //gallery -->
 <!-- team -->
-<div class="team-w3l" id="team">
+<!-- <div class="team-w3l" id="team">
 	<div class="container">
 		<h3 class="w3l-title">Our Skilled Lecturers</h3>
 		<div class="w3layouts_header">
@@ -506,7 +506,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- //team -->
 <!-- contact -->
 	<?php
@@ -584,7 +584,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<div id="map"></div>
+<!-- <div id="map"></div> -->
 <!-- footer -->
 <div class="footer">
 	<div class="container">
@@ -598,9 +598,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<ul>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="index.html">Home</a></li>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#about" class="scroll">About Us</a></li>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#services" class="scroll">Services</a></li>
+					<!-- <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#services" class="scroll">Services</a></li>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#team" class="scroll">Team</a></li>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#gallery" class="scroll">Gallery</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#gallery" class="scroll">Gallery</a></li> -->
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#mail" class="scroll">Mail Us</a></li>
 				</ul>
 			</div>

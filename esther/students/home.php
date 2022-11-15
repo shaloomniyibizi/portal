@@ -140,16 +140,17 @@ if(!$_SESSION['student']) {
 													}
 													else
 													{
-														$st_username = $student['name'];
+														$sid = $student['sid'];
 														$st_password_update = $_POST['new_password'];
-														$update_success = $ravi->student_password_change($st_password_update,$st_username);
+														$update_success = $ravi->student_change($st_password_update,$sid);
 														print_r($update_success);
+														echo "<script>alert('Password Changed Successfully');</script>";
 														echo "<script>window.location = 'home.php?success';</script>";
 													}
 												}
 										
 												?>
-												<form method="post">
+												<form method="POST">
 												<div class="input-group input-icon">
 													<span class="input-group-addon">
 												<i class="fa fa-key"></i>	</span>

@@ -63,10 +63,16 @@ class Portal {
 		return $delete_student_info_run;
 	}
 	public function student_password_change($st_password_update,$st_username) {
-		$student_password_update = "update student set password='$st_password_update' where name='$st_username'";
+		$student_password_update = "UPDATE student SET password='$st_password_update' where student.stud_name='$st_username'";
 		$student_password_update_run = $this->connectdb->query($student_password_update);
 		return $student_password_update_run;
 	} 
+	public function student_change($st_password_update,$sid) {
+		$student_password_update = "UPDATE `student` SET `password` = '$st_password_update' WHERE `student`.`sid` = '$sid'";
+		$student_password_update_run = $this->connectdb->query($student_password_update);
+		return $student_password_update_run;
+	} 
+
 //
 
 
@@ -249,6 +255,36 @@ class Portal {
 		$query = "SELECT * FROM department";
 		$result = $this->connectdb->query($query);
 		return $result;
+	}
+	public function getDepartment($email) {
+		$query = "SELECT * FROM department WHERE email='$email'";
+		$result = $this->connectdb->query($query);
+		return $result;
+	}
+	public function department_display_admin($dept_department_data) {
+		$department_display_admin_select = "SELECT * FROM department JOIN department ON department.did=department.did WHERE department.did ='$dept_department_data'";
+		$department_display_admin_run = $this->connectdb->query($department_display_admin_select);
+		return $department_display_admin_run;
+	}
+	public function delete_department($del_department) {
+		$delete_department_info = "DELETE FROM department WHERE hid='$del_department'";
+		$delete_department_info_run = $this->connectdb->query($delete_department_info);
+		return $delete_department_info_run;
+	}
+	public function edit_department($department) {
+		$edit_department = "SELECT * FROM department WHERE hid='$department'";
+		$edit_department_run = $this->connectdb->query($edit_department);
+		return $edit_department_run;
+	}
+	public function update_department_info($up_fullname,$up_email,$up_contact,$did,$hid) {
+		$update_department_info_select = "UPDATE department SET department_name='$up_fullname',email='$up_email',contact='$up_contact',did = '$did' WHERE hid='$hid'";
+		$update_department_info_run = $this->connectdb->query($update_department_info_select);
+		return $update_department_info_run;
+	}
+	public function add_department($department_name,$email,$password,$did,$contact) {
+		$add_department_insert = "INSERT INTO department(department_name,email,password,did,contact) VALUES('$department_name','$email','$password','$did','$contact')";
+		$add_department_run = $this->connectdb->query($add_department_insert);
+		return $add_department_run;
 	}
 ////
 

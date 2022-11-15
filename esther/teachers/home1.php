@@ -5,30 +5,30 @@
 						<div class="tab-inner">
 							<div id="tabs" class="tabs">
 								<h2 class="inner-tittle">Welcome, <?php echo $teacher['teacher_name']; ?>  </h2>
-								<div class="graph">
+								<!-- <div class="graph">
 									<nav>
 										<ul>
-											<li><a href="#section-1" class="icon-shop"><i class="fa fa-briefcase"></i> <span>Information</span></a></li>
+											<li><a href="#section-1" class="icon-shop"><i class="fa fa-briefcase"></i> <span>Information</span></a></li> -->
 											<!-- <li><a href="#section-2" class="icon-cup"><i class="fa fa-book"></i> <span>Results</span></a></li> -->
 											<!-- <li><a href="#section-3" class="icon-food"><i class="fa fa-cutlery"></i> <span>Teachers</span></a></li> -->
 											<!-- <li><a href="#section-4" class="icon-lab"><i class="fa fa-flask"></i> <span>Subject</span></a></li> -->
-										</ul>
-									</nav>
-									<div class="content tab">
+										<!-- </ul>
+									</nav> -->
+									<!-- <div class="content tab">
 										<section id="section-1">
 											<div class="mediabox">
 												<strong>Personal Information</strong>
 												<p>	<strong>Welcome,</strong>
-												<?php echo $teacher['teacher_name']; ?>
+												<?php //echo $teacher['teacher_name']; ?>
 											
 												<p>	<strong>Email:</strong>
-												<?php echo $teacher['email']; ?>
+												<?php //echo $teacher['email']; ?>
 											</p>
 											
 										</section>
-									</div>
+									</div> -->
 									<!-- /content -->
-								</div>
+								<!-- </div> -->
 								<!-- /tabs -->
 							</div>
 							<script src="js/cbpFWTabs.js"></script>

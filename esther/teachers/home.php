@@ -100,19 +100,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--/sidebar-menu-->
 		<div class="sidebar-menu">
 			<header class="logo">
-				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="index.html"> <span id="logo"> <h1>Portal</h1></span> 
+				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo"> <h1>Portal</h1></span> 
 					<!--<img id="logo" src="" alt="Logo"/>--> 
 				</a>
 			</header>
 			<div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
 			<!--/down-->
 			<div class="down">
-				<a href="index.html"><img src="images/admin.jpg"></a>
-				<a href="index.php"><span class=" name-caret"><?php echo $teacher['teacher_name']; ?></span></a>
+				<a href="#"><img src="images/admin.jpg"></a>
+				<a href="home.php"><span class=" name-caret"><?php echo $teacher['teacher_name']; ?></span></a>
 				<p>Teacher in Company</p>
 				<ul>
-					<li><a class="tooltips" href="index.html"><span>Profile</span><i class="fa fa-user"></i></a></li>
-					<li><a class="tooltips" href="index.html"><span>Settings</span><i class="fa fa-cog"></i></a></li>
+					<li><a class="tooltips" href="#"><span>Profile</span><i class="fa fa-user"></i></a></li>
+					<li><a class="tooltips" href="#"><span>Settings</span><i class="fa fa-cog"></i></a></li>
 					<li><a class="tooltips" href="logouts.php"><span>Log out</span><i class="fa fa-cog"></i></a></li>
 				</ul>
 			</div>
