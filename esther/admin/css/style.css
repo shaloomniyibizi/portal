@@ -318,7 +318,7 @@ span.name-caret {
 }
 
 .down{
-	padding: 26px 0 30px;
+	padding: 10px 0 10px;
     text-align: center;
       background: #fff;
 }
@@ -330,7 +330,7 @@ span.name-caret {
 .down p {
     font-size: 0.9em;
     color: #777;
-    padding: 5px 8px;
+    padding: 2px 4px;
 }
 .down ul {
  padding:0;
@@ -6210,7 +6210,7 @@ footer  p a:hover ,.footer p a:hover{
     font-size: 1.2em;
 	}
 	.down {
-      padding:20px 0 25px;
+      padding:2px;
 	}
 	.sidebar-icon {
 		margin-top: -2px;

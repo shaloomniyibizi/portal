@@ -100,19 +100,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--/sidebar-menu-->
 		<div class="sidebar-menu">
 			<header class="logo">
-				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="index.html"> <span id="logo"> <h1>Portal</h1></span> 
+				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo"> <h1>Portal</h1></span> 
 					<!--<img id="logo" src="" alt="Logo"/>--> 
 				</a>
 			</header>
 			<div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
 			<!--/down-->
 			<div class="down">
-				<a href="index.html"><img src="images/admin.jpg"></a>
+				<a href="#"><img src="images/admin.jpg"></a>
 				<a href="index.php"><span class=" name-caret"><?php echo $hod['hod_name']; ?></span></a>
 				<p>System hodistrator in Company</p>
 				<ul>
-					<li><a class="tooltips" href="index.html"><span>Profile</span><i class="fa fa-user"></i></a></li>
-					<li><a class="tooltips" href="index.html"><span>Settings</span><i class="fa fa-cog"></i></a></li>
+					<li><a class="tooltips" href="#"><span>Profile</span><i class="fa fa-user"></i></a></li>
+					<li><a class="tooltips" href="#"><span>Settings</span><i class="fa fa-cog"></i></a></li>
 					<li><a class="tooltips" href="logouts.php"><span>Log out</span><i class="fa fa-cog"></i></a></li>
 				</ul>
 			</div>
@@ -123,21 +123,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li id="menu-academico"><a href="#"><i class="fa fa-users"></i> <span>Students</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=student-information">Students Information</a></li>
-							<li id="menu-academico-boletim"><a href="home.php?ravi=add-student">Add Students</a></li>
+							<!-- <li id="menu-academico-boletim"><a href="home.php?ravi=add-student">Add Students</a></li> -->
 						</ul>
 					</li>
 					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>Teacher</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=teacher-information">Teacher Information</a></li>
-							<li id="menu-academico-boletim"><a href="home.php?ravi=teacher-add">Add Teacher</a></li>
+							<!-- <li id="menu-academico-boletim"><a href="home.php?ravi=teacher-add">Add Teacher</a></li> -->
 						</ul>
-					</li>
+					<!-- </li>
 					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>HOD</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=hod-information">hod Information</a></li>
 							<li id="menu-academico-boletim"><a href="home.php?ravi=hod-add">Add hod</a></li>
 						</ul>
-					</li>
+					</li> -->
 					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>module</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=module-information">module Information</a></li>
@@ -147,15 +147,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li id="menu-academico"><a href="#"><i class="fa fa-users"></i> <span>Result</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=result-information">Result Information</a></li>
-							<li id="menu-academico-boletim"><a href="home.php?ravi=add-result">Add result</a></li>
+							<!-- <li id="menu-academico-boletim"><a href="home.php?ravi=add-result">Add result</a></li> -->
 						</ul>
 					</li>
-					<li id="menu-academico"><a href="#"><i class="fa fa-cog"></i> <span>Settings</span> <span class="fa fa-angle-right" style="float: right"></span></a>
+					<!-- <li id="menu-academico"><a href="#"><i class="fa fa-cog"></i> <span>Settings</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 					<ul id="menu-academico-sub">
 						<li id="menu-academico-avaliacoes"><a href="home.php?ravi=general-information">General Information</a></li>
 						<li id="menu-academico-avaliacoes"><a href="home.php?ravi=edit-general-information">Edit General Information</a></li>
 					</ul>
-					</li>
+					</li> -->
 					<li id="menu-academico">
 						<a href="#">
 							<i class="fa fa-book"></i>

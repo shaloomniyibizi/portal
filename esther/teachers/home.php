@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				?> 
 				<!--footer section start-->
 				<footer>
-					<p>&copy 2018 Augment . All Rights Reserved | Design by Esther</p>
+					<p>&copy 2022 All Rights Reserved | Design by Esther</p>
 				</footer>
 				<!--footer section end-->
 			</div>
@@ -123,10 +123,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li id="menu-academico"><a href="#"><i class="fa fa-users"></i> <span>Students</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=student-information">Students Information</a></li>
-							<li id="menu-academico-boletim"><a href="home.php?ravi=add-student">Add Students</a></li>
+							<!-- <li id="menu-academico-boletim"><a href="home.php?ravi=add-student">Add Students</a></li> -->
 						</ul>
 					</li>
-					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>Teacher</span> <span class="fa fa-angle-right" style="float: right"></span></a>
+					<!-- <li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>Teacher</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=teacher-information">Teacher Information</a></li>
 							<li id="menu-academico-boletim"><a href="home.php?ravi=teacher-add">Add Teacher</a></li>
@@ -137,11 +137,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=hod-information">hod Information</a></li>
 							<li id="menu-academico-boletim"><a href="home.php?ravi=hod-add">Add hod</a></li>
 						</ul>
-					</li>
+					</li> -->
 					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>module</span> <span class="fa fa-angle-right" style="float: right"></span></a>
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=module-information">module Information</a></li>
-							<li id="menu-academico-boletim"><a href="home.php?ravi=module-add">Add module</a></li>
+							<!-- <li id="menu-academico-boletim"><a href="home.php?ravi=module-add">Add module</a></li> -->
 						</ul>
 					</li>
 					<li id="menu-academico"><a href="#"><i class="fa fa-users"></i> <span>Result</span> <span class="fa fa-angle-right" style="float: right"></span></a>

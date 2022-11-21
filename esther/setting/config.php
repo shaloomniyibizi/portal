@@ -276,13 +276,13 @@ class Portal {
 		$edit_department_run = $this->connectdb->query($edit_department);
 		return $edit_department_run;
 	}
-	public function update_department_info($up_fullname,$up_email,$up_contact,$did,$hid) {
-		$update_department_info_select = "UPDATE department SET department_name='$up_fullname',email='$up_email',contact='$up_contact',did = '$did' WHERE hid='$hid'";
+	public function update_department_info($up_fullname,$did) {
+		$update_department_info_select = "UPDATE department SET dept_name='$up_fullname' WHERE did='$did'";
 		$update_department_info_run = $this->connectdb->query($update_department_info_select);
 		return $update_department_info_run;
 	}
-	public function add_department($department_name,$email,$password,$did,$contact) {
-		$add_department_insert = "INSERT INTO department(department_name,email,password,did,contact) VALUES('$department_name','$email','$password','$did','$contact')";
+	public function add_department($dept_name) {
+		$add_department_insert = "INSERT INTO department(dept_name) VALUES('$dept_name')";
 		$add_department_run = $this->connectdb->query($add_department_insert);
 		return $add_department_run;
 	}

@@ -3,7 +3,7 @@ include "../setting/config.php";
 session_start();
 if(!$_SESSION['admin'])
 {
-	header("location:../index.php");
+	header("location:index.php");
 }
 else
 {
@@ -16,12 +16,6 @@ else
 
 
 ?>
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 
@@ -91,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				?> 
 				<!--footer section start-->
 				<footer>
-					<p>&copy 2018 Augment . All Rights Reserved | Design by Esther</p>
+					<p>&copy 2022 All Rights Reserved | Design by Esther</p>
 				</footer>
 				<!--footer section end-->
 			</div>
@@ -100,19 +94,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!--/sidebar-menu-->
 		<div class="sidebar-menu">
 			<header class="logo">
-				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="index.html"> <span id="logo"> <h1>Portal</h1></span> 
+				<a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo"> <h1>Portal</h1></span> 
 					<!--<img id="logo" src="" alt="Logo"/>--> 
 				</a>
 			</header>
 			<div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
 			<!--/down-->
 			<div class="down">
-				<a href="index.html"><img src="images/admin.jpg"></a>
+				<a href="#"><img src="images/admin.jpg"></a>
 				<a href="index.php"><span class=" name-caret"><?php echo $admin['admin_name']; ?></span></a>
 				<p>System Administrator in Company</p>
 				<ul>
-					<li><a class="tooltips" href="index.html"><span>Profile</span><i class="fa fa-user"></i></a></li>
-					<li><a class="tooltips" href="index.html"><span>Settings</span><i class="fa fa-cog"></i></a></li>
+					<li><a class="tooltips" href="#"><span>Profile</span><i class="fa fa-user"></i></a></li>
+					<li><a class="tooltips" href="#"><span>Settings</span><i class="fa fa-cog"></i></a></li>
 					<li><a class="tooltips" href="logouts.php"><span>Log out</span><i class="fa fa-cog"></i></a></li>
 				</ul>
 			</div>
@@ -130,6 +124,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul id="menu-academico-sub">
 							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=teacher-information">Teacher Information</a></li>
 							<li id="menu-academico-boletim"><a href="home.php?ravi=teacher-add">Add Teacher</a></li>
+						</ul>
+					</li>
+					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>Department</span> <span class="fa fa-angle-right" style="float: right"></span></a>
+						<ul id="menu-academico-sub">
+							<li id="menu-academico-avaliacoes"><a href="home.php?ravi=dept-add">Add Department</a></li>
 						</ul>
 					</li>
 					<li id="menu-academico"><a href="#"><i class="fa fa-user"></i> <span>HOD</span> <span class="fa fa-angle-right" style="float: right"></span></a>

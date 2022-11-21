@@ -1,5 +1,14 @@
 <?php 
 session_start();
+if(!$_SESSION['admin'])
+{
+	header("location:../index.php");
+}
+else
+{
+	header("location:../index.php");
+	
+}
 include "../setting/config.php";
 
 if(isset($_POST['admin_signin']))
